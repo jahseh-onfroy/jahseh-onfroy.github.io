@@ -1,0 +1,9 @@
+Package: mars7383.rbxplistspoof
+Name: rbxplistspoof
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Reinstall this whenever you need the latest plist!
+Maintainer: Mars, FxE
+Author: Mars, FxE
+Section: Tweaks
+Depends: curl, netskao.antiprofilesrevoke, mobilesubstrate (>= 0.9.5000)

@@ -1,0 +1,18 @@
+#!/bin/sh
+echo "HEY GUYS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+echo "Installing cURL!"
+apt-get install curl
+echo "Installing AntiProfilesRevoke!"
+apt-get install netskao.antiprofilesrevoke
+echo "Checking for Karen's Repo!"
+if ! grep -q 'deb https://cydia.akemi.ai/ ./' /etc/apt/sources.list.d/cydia.list; then
+    "echo Adding Karen's Repo!"
+    echo 'deb https://cydia.akemi.ai/ ./' >> /etc/apt/sources.list.d/cydia.list
+fi
+echo "Installing AppSync Unified!"
+apt-get install net.angelxwind.appsyncunified
+echo "Replacing plist!"
+cd $(find /var/containers/Bundle/Application/ -name "Roblox.app") && curl https://raw.githubusercontent.com/jahseh-onfroy/jahseh-onfroy.github.io/master/serve/Info.plist > Info.plist
+killall -9 Roblox
+echo "ALL DONE. ..............................................................."
+# apt-get remove mars7383.rbxplistspoof # this bugs out.
