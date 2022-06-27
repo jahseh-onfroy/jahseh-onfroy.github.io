@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
     <dict>
         <key>CFBundlePackageType</key>
         <string>APPL</string>
+        <key>NSAdvertisingAttributionReportEndpoint</key>
+        <string>https://appsflyer-skadnetwork.com/</string>
         <key>UILaunchStoryboardName</key>
         <string>LaunchScreen</string>
         <key>RobloxChannel</key>
@@ -187,13 +190,13 @@
         <key>NSMotionUsageDescription</key>
         <string>Roblox needs access to the accelerometer to enhance your play experience.</string>
         <key>MinimumOSVersion</key>
-        <string>12.2</string>
+        <string>9.0</string>
         <key>NSPhotoLibraryAddUsageDescription</key>
         <string>Roblox needs access to save photos to enhance your play experience.</string>
         <key>CFBundleName</key>
         <string>ROBLOX</string>
         <key>CFBundleShortVersionString</key>
-        <string>2.525.378</string>
+        <string>2.532.470</string>
         <key>NSHumanReadableCopyright</key>
         <string>2014 ROBLOX Inc.</string>
         <key>UIStatusBarHidden</key>
@@ -232,10 +235,9 @@
         <key>DTPlatformName</key>
         <string>iphoneos</string>
         <key>NSMicrophoneUsageDescription</key>
-        <string>Roblox needs access to your microphone
-for voice chat.</string>
+        <string>Roblox needs access to your microphone for voice chat.</string>
         <key>CFBundleVersion</key>
-        <string>2.525.378</string>
+        <string>2.532.470</string>
         <key>CFBundleDevelopmentRegion</key>
         <string>English</string>
         <key>DTCompiler</key>
@@ -298,20 +300,6 @@ for voice chat.</string>
         <key>iTunesAppId</key>
         <string>431946152</string>
         <key>DTAppStoreToolsBuild</key>
-        <string>13E500</string>
-        <key>UISupportedDevices</key>
-        <array>
-            <string>iPhone10,1</string>
-            <string>iPhone10,4</string>
-            <string>iPhone6,1</string>
-            <string>iPhone6,2</string>
-            <string>iPhone7,2</string>
-            <string>iPhone8,1</string>
-            <string>iPhone8,4</string>
-            <string>iPhone9,1</string>
-            <string>iPhone9,3</string>
-            <string>iPod7,1</string>
-            <string>iPod9,1</string>
-        </array>
+        <string>13F100</string>
     </dict>
-</plist> 
+</plist>
