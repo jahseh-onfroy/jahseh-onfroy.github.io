@@ -196,7 +196,7 @@
     <key>CFBundleName</key>
     <string>ROBLOX</string>
     <key>CFBundleShortVersionString</key>
-    <string>2.538.363</string>
+    <string>2.539.400</string>
     <key>NSHumanReadableCopyright</key>
     <string>2014 ROBLOX Inc.</string>
     <key>UIStatusBarHidden</key>
@@ -237,7 +237,7 @@
     <key>NSMicrophoneUsageDescription</key>
     <string>Roblox needs access to your microphone for voice chat.</string>
     <key>CFBundleVersion</key>
-    <string>2.538.363</string>
+    <string>2.539.400</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>DTCompiler</key>
@@ -285,7 +285,7 @@
     <key>DTPlatformBuild</key>
     <string>19C51</string>
     <key>NSContactsUsageDescription</key>
-    <string>You agree that we will access and collect the names of your contacts and their phone numbers and other contact information, so that we can connect you to your friends as they join Roblox. To learn more, go to https://www.roblox.com/info/privacy.</string>
+    <string>By allowing access, your device contacts will be periodically synced and matches with existing Roblox users will be stored on Roblox’s secured servers. You can manage your synced contact data anytime in your account’s privacy settings.</string>
     <key>DTXcode</key>
     <string>1320</string>
     <key>UISupportedInterfaceOrientations</key>
