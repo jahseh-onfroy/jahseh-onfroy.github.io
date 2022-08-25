@@ -196,7 +196,7 @@
     <key>CFBundleName</key>
     <string>ROBLOX</string>
     <key>CFBundleShortVersionString</key>
-    <string>2.540.501</string>
+    <string>2.541.422</string>
     <key>NSHumanReadableCopyright</key>
     <string>2014 ROBLOX Inc.</string>
     <key>UIStatusBarHidden</key>
@@ -237,7 +237,7 @@
     <key>NSMicrophoneUsageDescription</key>
     <string>Roblox needs access to your microphone for voice chat.</string>
     <key>CFBundleVersion</key>
-    <string>2.540.501</string>
+    <string>2.541.422</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>DTCompiler</key>
