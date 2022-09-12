@@ -20,14 +20,14 @@
     <dict>
       <key>CFBundleAlternateIcons</key>
       <dict>
-        <key>AppIcon-Tilt-Squares</key>
+        <key>AppIcon-Grid-BlackTilt</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>AppIcon-Tilt-Squares60x60</string>
+            <string>AppIcon-Grid-BlackTilt60x60</string>
           </array>
           <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Squares</string>
+          <string>AppIcon-Grid-BlackTilt</string>
         </dict>
         <key>AppIcon Tencent</key>
         <dict>
@@ -38,32 +38,23 @@
           <key>CFBundleIconName</key>
           <string>AppIcon Tencent</string>
         </dict>
-        <key>AppIcon-Tilt-Tiles</key>
+        <key>AppIcon-Grid-GradientTilt</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>AppIcon-Tilt-Tiles60x60</string>
+            <string>AppIcon-Grid-GradientTilt60x60</string>
           </array>
           <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Tiles</string>
+          <string>AppIcon-Grid-GradientTilt</string>
         </dict>
-        <key>AppIcon-Tilt-Gradient</key>
+        <key>AppIcon-Grid-WhiteTilt</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>AppIcon-Tilt-Gradient60x60</string>
+            <string>AppIcon-Grid-WhiteTilt60x60</string>
           </array>
           <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Gradient</string>
-        </dict>
-        <key>AppIcon-Tilt-Lines</key>
-        <dict>
-          <key>CFBundleIconFiles</key>
-          <array>
-            <string>AppIcon-Tilt-Lines60x60</string>
-          </array>
-          <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Lines</string>
+          <string>AppIcon-Grid-WhiteTilt</string>
         </dict>
       </dict>
       <key>CFBundlePrimaryIcon</key>
@@ -116,14 +107,14 @@
     <dict>
       <key>CFBundleAlternateIcons</key>
       <dict>
-        <key>AppIcon-Tilt-Squares</key>
+        <key>AppIcon-Grid-BlackTilt</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>AppIcon-Tilt-Squares60x60</string>
+            <string>AppIcon-Grid-BlackTilt60x60</string>
           </array>
           <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Squares</string>
+          <string>AppIcon-Grid-BlackTilt</string>
         </dict>
         <key>AppIcon Tencent</key>
         <dict>
@@ -134,32 +125,23 @@
           <key>CFBundleIconName</key>
           <string>AppIcon Tencent</string>
         </dict>
-        <key>AppIcon-Tilt-Tiles</key>
+        <key>AppIcon-Grid-GradientTilt</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>AppIcon-Tilt-Tiles60x60</string>
+            <string>AppIcon-Grid-GradientTilt60x60</string>
           </array>
           <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Tiles</string>
+          <string>AppIcon-Grid-GradientTilt</string>
         </dict>
-        <key>AppIcon-Tilt-Gradient</key>
+        <key>AppIcon-Grid-WhiteTilt</key>
         <dict>
           <key>CFBundleIconFiles</key>
           <array>
-            <string>AppIcon-Tilt-Gradient60x60</string>
+            <string>AppIcon-Grid-WhiteTilt60x60</string>
           </array>
           <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Gradient</string>
-        </dict>
-        <key>AppIcon-Tilt-Lines</key>
-        <dict>
-          <key>CFBundleIconFiles</key>
-          <array>
-            <string>AppIcon-Tilt-Lines60x60</string>
-          </array>
-          <key>CFBundleIconName</key>
-          <string>AppIcon-Tilt-Lines</string>
+          <string>AppIcon-Grid-WhiteTilt</string>
         </dict>
       </dict>
       <key>CFBundlePrimaryIcon</key>
@@ -196,7 +178,7 @@
     <key>CFBundleName</key>
     <string>ROBLOX</string>
     <key>CFBundleShortVersionString</key>
-    <string>2.542.509</string>
+    <string>2.543.566</string>
     <key>NSHumanReadableCopyright</key>
     <string>2014 ROBLOX Inc.</string>
     <key>UIStatusBarHidden</key>
@@ -231,13 +213,13 @@
     <key>UIPrerenderedIcon</key>
     <true/>
     <key>BuildMachineOSBuild</key>
-    <string>20G415</string>
+    <string>20G417</string>
     <key>DTPlatformName</key>
     <string>iphoneos</string>
     <key>NSMicrophoneUsageDescription</key>
     <string>Roblox needs access to your microphone for voice chat.</string>
     <key>CFBundleVersion</key>
-    <string>2.542.509</string>
+    <string>2.543.566</string>
     <key>CFBundleDevelopmentRegion</key>
     <string>English</string>
     <key>DTCompiler</key>
