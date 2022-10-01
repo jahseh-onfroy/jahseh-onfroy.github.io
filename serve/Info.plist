@@ -77,7 +77,7 @@
 	<key>DTSDKName</key>
 	<string>iphoneos15.2</string>
 	<key>CFBundleVersion</key>
-	<string>2.545.432</string>
+	<string>2.546.522</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -200,7 +200,7 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>BuildMachineOSBuild</key>
-	<string>20G417</string>
+	<string>20G527</string>
 	<key>CFBundleIcons~ipad</key>
 	<dict>
 		<key>CFBundleAlternateIcons</key>
@@ -309,7 +309,7 @@
 	<key>GoogleAnalyticsAccount</key>
 	<string>UA-42322750-1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.545.432</string>
+	<string>2.546.522</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 </dict>
