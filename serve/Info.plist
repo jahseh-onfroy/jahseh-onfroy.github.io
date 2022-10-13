@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>MinimumOSVersion</key>
-	<string>15.0</string>
+	<string>13.0</string>
 	<key>RBWhitelistedDomain</key>
 	<string>www.kidsafeseal.com</string>
 	<key>UIStatusBarStyle</key>
@@ -18,30 +18,14 @@
 	<string>Roblox needs access to the accelerometer to enhance your play experience.</string>
 	<key>UISupportedDevices</key>
 	<array>
-		<string>iPhone10,2</string>
-		<string>iPhone10,3</string>
-		<string>iPhone10,5</string>
-		<string>iPhone10,6</string>
-		<string>iPhone11,2</string>
-		<string>iPhone11,4</string>
-		<string>iPhone11,6</string>
-		<string>iPhone12,3</string>
-		<string>iPhone12,5</string>
-		<string>iPhone13,1</string>
-		<string>iPhone13,2</string>
-		<string>iPhone13,3</string>
-		<string>iPhone13,4</string>
-		<string>iPhone14,2</string>
-		<string>iPhone14,3</string>
-		<string>iPhone14,4</string>
-		<string>iPhone14,5</string>
-		<string>iPhone14,7</string>
-		<string>iPhone14,8</string>
-		<string>iPhone15,2</string>
-		<string>iPhone15,3</string>
-		<string>iPhone8,2</string>
-		<string>iPhone9,2</string>
-		<string>iPhone9,4</string>
+		<string>iPhone10,1</string>
+		<string>iPhone10,4</string>
+		<string>iPhone12,8</string>
+		<string>iPhone8,1</string>
+		<string>iPhone8,4</string>
+		<string>iPhone9,1</string>
+		<string>iPhone9,3</string>
+		<string>iPod9,1</string>
 	</array>
 	<key>DTAppStoreToolsBuild</key>
 	<string>14A305</string>
@@ -77,7 +61,7 @@
 	<key>DTSDKName</key>
 	<string>iphoneos15.2</string>
 	<key>CFBundleVersion</key>
-	<string>2.546.522</string>
+	<string>2.548.523</string>
 	<key>UIDeviceFamily</key>
 	<array>
 		<integer>1</integer>
@@ -200,7 +184,7 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>BuildMachineOSBuild</key>
-	<string>20G527</string>
+	<string>20G417</string>
 	<key>CFBundleIcons~ipad</key>
 	<dict>
 		<key>CFBundleAlternateIcons</key>
@@ -288,15 +272,7 @@
 	<string>6.0</string>
 	<key>UIAppFonts</key>
 	<array>
-		<string>SourceSansPro-Light.ttf</string>
 		<string>SourceSansPro-Regular.ttf</string>
-		<string>SourceSansPro-Semibold.ttf</string>
-		<string>SourceSansPro-It.ttf</string>
-		<string>SourceSansPro-Bold.ttf</string>
-		<string>GothamSSm-Black.otf</string>
-		<string>GothamSSm-Bold.otf</string>
-		<string>GothamSSm-Book.otf</string>
-		<string>GothamSSm-Medium.otf</string>
 	</array>
 	<key>DTSDKBuild</key>
 	<string>19C51</string>
@@ -309,7 +285,7 @@
 	<key>GoogleAnalyticsAccount</key>
 	<string>UA-42322750-1</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.546.522</string>
+	<string>2.548.523</string>
 	<key>UIRequiresFullScreen</key>
 	<true/>
 </dict>
