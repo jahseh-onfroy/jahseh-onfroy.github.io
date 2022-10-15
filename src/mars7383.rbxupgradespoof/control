@@ -1,0 +1,9 @@
+Package: mars7383.rbxupgradespoof
+Name: Don't Upgrade!
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Bypasses the "Please Upgrade!" alert. You only need to install this once.
+Maintainer: Mars
+Author: Mars
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)

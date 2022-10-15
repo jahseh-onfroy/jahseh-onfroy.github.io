@@ -1,0 +1,8 @@
+{
+	Filter = {
+		Bundles = (
+			"com.roblox.robloxmobile",
+			"com.apple.foundation",
+		);
+	};
+}
