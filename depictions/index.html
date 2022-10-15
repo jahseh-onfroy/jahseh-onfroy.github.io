@@ -1,4 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    Reinstall rbxplistspoof whenever you need the latest plist!
+    <p id='desc' style="font-family:Arial;font-size:18px;"></p>
+    <script>
+        let a = new URLSearchParams(window.location.search)
+        function setDesc(i) {
+            document.getElementById('desc').innerHTML = i;
+        }
+        for (const [key, value] of a.entries()) {
+                if (key == 'p') {
+                    switch (value) {
+                        case 'mars7383.rbxplistspoof': setDesc('INSTALL <a href="cydia://url/https://cydia.saurik.com/api/share#?package=mars7383.rbxupgradespoof" style="color:blue;">Don\'t Upgrade!</a> INSTEAD!!!<br><hr>Reinstall rbxplistspoof whenever you need the latest plist!'); break;
+                        case 'mars7383.rbxupgradespoof': setDesc('Bypasses the "Please Upgrade!" alert. You only need to install this once.'); break;
+                    }
+                }
+        }
+        //
+    </script>
 </html>
