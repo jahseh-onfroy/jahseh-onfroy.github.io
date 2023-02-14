@@ -37,7 +37,7 @@ printf "${WHITE}Press [RETURN] to continue...${CLEAR}"
 read -p ""
 printf "\n\n"
 
-"$BOBLESDIR"/azule/azule -i "$decryptedIPA" -o "$IPAPath"/rbx_sw.ipa -f "$BOBLESDIR"/azule/sw.deb "$BOBLESDIR"/azule/rbxupgradespoof.deb -v
+"$BOBLESDIR"/azule/azule -i "$decryptedIPA" -o "$IPAPath"/rbx_sw.ipa -r -f "$BOBLESDIR"/azule/sw.deb "$BOBLESDIR"/azule/rbxupgradespoof.deb -v
 rm -rf "$BOBLESDIR"
 open -R "$IPAPath"/rbx_sw.ipa
 printf "${WHITE}Press [RETURN] to continue...${CLEAR}"
