@@ -60,14 +60,14 @@
 	<script>
 		function jahlu() {
 			document.body.innerHTML += `
-				<br>
-				<center>
-					<video width="50%" autoplay loop playsinline>
+				<!--<br>
+				<center>-->
+					<video width="50%" autoplay loop playsinline style="position:absolute;z-index:-1;top:0;left:50%;transform:translate(-50%,0);height:100%;">
 					<source src="${atob("aHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvOTE0MzkxNzc5NTY1MDEwOTQ0LzEwNjc5MzQxOTQ4MDc4Nzc4MTUvY3JlZHMtdG8tN1o4SXBlU2NvTDQubXA0") /* latest encryption software */}" type="video/mp4">
 					</video>
-				</center>
+				<!--</center>-->
 			`;
-			window.scrollTo(0, document.body.scrollHeight);
+			//window.scrollTo(0, document.body.scrollHeight);
 			window.jahlu = function() { }; // end of an era :(
 		}
 
