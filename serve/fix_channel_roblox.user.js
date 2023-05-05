@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Revert channel builds
-// @version      1.0.1
-// @description  This will revert any channel builds that Roblox has placed on your account and revert it back to the 32-bit version of Roblox (temporarily...).
+// @version      1.0.2
+// @description  This will revert any channel builds that Roblox has placed on your account and revert it back to the normal version people get. (32-bit versions are now disabled..)
 // @author       BabyHamsta (HamstaGang @ V3RM), fxe (fxeP1)
 // @match        https://*.roblox.com/*
 // @match        https://roblox.com/*
@@ -21,11 +21,11 @@
   try {
     let ProtocolHandlerClientInterface = Roblox.ProtocolHandlerClientInterface
     Object.defineProperty(ProtocolHandlerClientInterface, "playerChannel", {
-        value: "zlive",
+        value: "",
         writable: false
     });
     Object.defineProperty(ProtocolHandlerClientInterface, "channel", {
-        value: "zlive",
+        value: "",
         writable: false
     });
     Object.defineProperty(ProtocolHandlerClientInterface, "studioChannel", {
