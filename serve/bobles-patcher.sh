@@ -9,9 +9,9 @@ LGRAY='\033[0;37m'
 WHITE='\033[1;37m'
 CLEAR='\033[0m' # Reset color
 clear
-printf "${GREEN}Welcome to the bobles patcher tool.${CLEAR}\n\n" 
+printf "${GREEN}Welcome to the bobles patcher tool.${CLEAR}\n\n"
 printf "${YELLOW}Please download the appropriate IPA file before continuing.${CLEAR}\n\n"
-printf "${YELLOW}Dependencies will now be downloaded.${CLEAR}\n\n" 
+printf "${YELLOW}Dependencies will now be downloaded.${CLEAR}\n\n"
 printf "${WHITE}Press [RETURN] to continue...${CLEAR}"
 read -p ""
 
@@ -19,7 +19,7 @@ printf "${WHITE}Downloading Azule (communism edition)...${CLEAR}\n"
 git clone https://github.com/GithubPagesStuff/Azule.git $BOBLESDIR"/azule"
 curl -#k https://cdn.discordapp.com/attachments/940033259964866580/1071864920167153685/dragintoterminal.gif -o $BOBLESDIR"/azule/dragintoterminal.gif"
 printf "${WHITE}Downloading Script-Ware...${CLEAR}\n"
-curl -#k https://script-ware.com/ios_repo/Package.deb -o $BOBLESDIR"/azule/sw.deb"
+curl -#k https://script-ware.com/ios_repo/scriptware.dylib -o $BOBLESDIR"/azule/sw.dylib"
 printf "${WHITE}Downloading rbxupgradespoof...${CLEAR}\n"
 curl -#k https://jahseh-onfroy.github.io/debs/mars7383.rbxupgradespoof_1.0_iphoneos-arm.deb -o $BOBLESDIR"/azule/rbxupgradespoof.deb"
 
