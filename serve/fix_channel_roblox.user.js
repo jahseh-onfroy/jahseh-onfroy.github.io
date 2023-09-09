@@ -1,35 +1,36 @@
 // ==UserScript==
 // @name         Revert channel builds
-// @version      1.0.2
-// @description  This will revert any channel builds that Roblox has placed on your account and revert it back to the normal version people get. (32-bit versions are now disabled..)
-// @author       BabyHamsta (HamstaGang @ V3RM), fxe (fxeP1)
+// @version      1.0.3
+// @description  This will revert any channel builds that Roblox has placed on your account and revert it back to the normal version people get.
+// @author       BabyHamsta (HamstaGang @ V3RM)
 // @match        https://*.roblox.com/*
 // @match        https://roblox.com/*
 // @icon         https://www.roblox.com/favicon.ico
 // @grant        none
 // @run-at       document-start
+// @inject-into  page
 // @license      MIT
 // @noframes
 // ==/UserScript==
 
-// fxe#0385 (597464577822687250) @ Script-Ware
 (async () => {
   'use strict';
 
-  while (typeof Roblox == "undefined" || typeof Roblox.ProtocolHandlerClientInterface == "undefined") await new Promise(resolve => setTimeout(resolve))
+  while (typeof Roblox == "undefined" || typeof Roblox.ProtocolHandlerClientInterface == "undefined") await new Promise(resolve => setTimeout(resolve));
 
+  let channel = "";
   try {
     let ProtocolHandlerClientInterface = Roblox.ProtocolHandlerClientInterface
     Object.defineProperty(ProtocolHandlerClientInterface, "playerChannel", {
-        value: "",
+        value: channel,
         writable: false
     });
     Object.defineProperty(ProtocolHandlerClientInterface, "channel", {
-        value: "",
+        value: channel,
         writable: false
     });
     Object.defineProperty(ProtocolHandlerClientInterface, "studioChannel", {
-        value: "",
+        value: channel,
         writable: false
     });
 

@@ -20,8 +20,8 @@ git clone https://github.com/GithubPagesStuff/Azule.git $BOBLESDIR"/azule"
 curl -#k https://cdn.discordapp.com/attachments/940033259964866580/1071864920167153685/dragintoterminal.gif -o $BOBLESDIR"/azule/dragintoterminal.gif"
 printf "${WHITE}Downloading Script-Ware...${CLEAR}\n"
 curl -#k https://script-ware.com/ios_repo/scriptware.dylib -o $BOBLESDIR"/azule/sw.dylib"
-printf "${WHITE}Downloading rbxupgradespoof...${CLEAR}\n"
-curl -#k https://jahseh-onfroy.github.io/debs/mars7383.rbxupgradespoof_1.0_iphoneos-arm.deb -o $BOBLESDIR"/azule/rbxupgradespoof.deb"
+#printf "${WHITE}Downloading rbxupgradespoof...${CLEAR}\n"
+#curl -#k https://jahseh-onfroy.github.io/debs/mars7383.rbxupgradespoof_1.0_iphoneos-arm.deb -o $BOBLESDIR"/azule/rbxupgradespoof.deb"
 
 clear
 printf "${GREEN}Dependencies have been downloaded.\n\n${YELLOW}Now, please drag the IPA file into this window and then press [RETURN].${CLEAR}\n\n"
@@ -37,7 +37,8 @@ printf "${WHITE}Press [RETURN] to continue...${CLEAR}"
 read -p ""
 printf "\n\n"
 
-"$BOBLESDIR"/azule/azule -i "$decryptedIPA" -o "$IPAPath"/rbx_sw.ipa -r -f "$BOBLESDIR"/azule/sw.deb "$BOBLESDIR"/azule/rbxupgradespoof.deb -v
+#"$BOBLESDIR"/azule/azule -i "$decryptedIPA" -o "$IPAPath"/rbx_sw.ipa -r -f "$BOBLESDIR"/azule/sw.dylib "$BOBLESDIR"/azule/rbxupgradespoof.deb -v
+"$BOBLESDIR"/azule/azule -i "$decryptedIPA" -o "$IPAPath"/rbx_sw.ipa -r -f "$BOBLESDIR"/azule/sw.dylib -v
 rm -rf "$BOBLESDIR"
 open -R "$IPAPath"/rbx_sw.ipa
 printf "${WHITE}Press [RETURN] to continue...${CLEAR}"
